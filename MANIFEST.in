@@ -1,0 +1,5 @@
+include README.md pyproject.toml install.py UI.py
+recursive-include src *.ui *.pkl *.py
+recursive-include plot *.ui *.py
+recursive-include model *
+recursive-include source *

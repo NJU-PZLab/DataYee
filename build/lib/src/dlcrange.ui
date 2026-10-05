@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlc_range</class>
+ <widget class="QDialog" name="dlc_range">
+  <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>436</height>
+    </rect>
+  </property>
+  <property name="windowTitle">
+   <string>dLc settings</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+      <width>700</width>
+      <height>501</height>
+    </rect>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <property name="rowCount">
+    <number>10</number>
+   </property>
+   <property name="columnCount">
+     <number>5</number>
+    </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderHighlightSections">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   <item row="0" column="0">
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>min dLc</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>max dLc</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>GB1</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>15</string>
+    </property>
+   </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>min Force (pN)</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>max Force (pN)</string>
+     </property>
+    </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+      <x>550</x>
+     <y>400</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

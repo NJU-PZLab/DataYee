@@ -1,0 +1,7 @@
+Looking in indexes: https://pypi.mirrors.ustc.edu.cn/simple
+Collecting scipy
+  Using cached scipy-1.18.1-cp312-cp312-win_amd64.whl (36.7 MB)
+Requirement already satisfied: numpy<2.8,>=2.0.0 in C:\Users\admin\.conda\envs\AFM\Lib\site-packages (from scipy) (2.5.2)
+Installing collected packages: scipy
+Successfully installed scipy-1.18.1
+

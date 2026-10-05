@@ -1,0 +1,11 @@
+Looking in indexes: https://pypi.mirrors.ustc.edu.cn/simple
+Collecting pyqt5
+  Using cached PyQt5-5.15.11-cp38-abi3-win_amd64.whl (6.9 MB)
+Collecting PyQt5-sip<13,>=12.15 (from pyqt5)
+  Downloading pyqt5_sip-12.19.0-cp312-cp312-win_amd64.whl (57 kB)
+Collecting PyQt5-Qt5<5.16.0,>=5.15.2 (from pyqt5)
+  Using cached PyQt5_Qt5-5.15.2-py3-none-win_amd64.whl (50.1 MB)
+Installing collected packages: PyQt5-Qt5, PyQt5-sip, pyqt5
+
+Successfully installed PyQt5-Qt5-5.15.2 PyQt5-sip-12.19.0 pyqt5-5.15.11
+

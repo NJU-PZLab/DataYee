@@ -1,0 +1,6 @@
+Looking in indexes: https://pypi.mirrors.ustc.edu.cn/simple
+Collecting numpy
+  Using cached numpy-2.5.2-cp312-cp312-win_amd64.whl (12.5 MB)
+Installing collected packages: numpy
+Successfully installed numpy-2.5.2
+
